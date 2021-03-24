@@ -4,4 +4,4 @@ const GitHub = axios.create({
   baseURL: 'https://api.github.com/',
 });
 
-export default GitHub;
+export { GitHub };

@@ -1,10 +1,9 @@
 import React from 'react';
 import { AppProvider } from './hooks';
-import Routes from './routes';
+import { Routes } from './routes';
 
-const App: React.FC = () => (
+export const App: React.FC = () => (
   <AppProvider>
     <Routes />
   </AppProvider>
 );
-export default App;
